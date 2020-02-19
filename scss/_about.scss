@@ -1,0 +1,18 @@
+.faq {
+	display: grid;
+	padding: 2em;
+	.q1,.q2 {
+		margin: 1em;
+	}
+}
+
+.contain {
+	justify-self: center;
+	display: grid;
+}
+
+@media (min-width: 40em) {
+	.contain {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}

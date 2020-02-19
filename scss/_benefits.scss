@@ -1,0 +1,14 @@
+.benefits {
+	padding: 2em;
+}
+
+@media (min-width: 40em) {
+		.benefits {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+		}
+
+		.Benefit1, .Benefit2, .Benefit3 {
+			margin: 1em;
+		}
+	}

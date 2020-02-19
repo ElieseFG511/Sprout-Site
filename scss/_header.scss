@@ -1,0 +1,31 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background-color: #6200EE;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  color: #fff;
+  padding: 1em 2em;
+}
+
+header h1 {
+  grid-column: 1;
+  align-self: center;
+}
+
+header h2 {
+  grid-column: 2;
+  justify-self: end;
+  color: #000;
+  background-color: #fff;
+  padding: 1em .5em;
+  border-radius: 5em;
+  align-self: center;
+}
+
+header h2:hover {
+	background-color: #000;
+	color: #fff;
+}

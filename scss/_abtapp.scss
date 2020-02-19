@@ -1,0 +1,61 @@
+.Abtapp {
+	display: grid;
+	padding: 2em;
+}
+
+.Abtapp .about {
+	justify-self: center;
+	grid-row: 1;
+}
+
+.Abtapp .image {
+	justify-self: center;
+	align-self: center;
+	img {
+		height: 50vh;
+	}
+	p {
+		text-align: center
+	}
+
+}
+
+@media (min-width: 40em) {
+	.Abtapp {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.Abtapp .about {
+		align-self: center;
+		grid-column: 2;	
+	}	
+}
+
+
+.featimg {
+	display: grid;
+	img {
+		height: 50vh;
+	}
+
+	.img1 {
+		justify-self: center;
+		margin: 1em;
+		p {
+			text-align: center;
+		}
+	}
+	.img2 {
+		justify-self: center;
+		margin: 1em;
+		p {
+			text-align: center;
+		}
+	}
+}
+
+@media (min-width: 40em) {
+	.featimg {
+		grid-template-columns: 1fr 1fr;
+	}
+}
